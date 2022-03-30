@@ -1,0 +1,280 @@
+body{
+     background-color:white;
+     margin: 0%;
+    /* width:  1366px;
+    height: 849px; */
+}
+.container{
+    background-color: #3D087B;
+    background-size: 0% 0%;
+    width: 1366px;
+    height: 700px;
+    position:absolute;
+    top: 5%;
+    /* bottom: px; */
+    left: 5%;
+}
+.logo{
+    background-image: url(./images/clock_logo/clock_logo.png);
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 78px;
+    position: relative;
+    left: 100px;
+    top: 34px;
+}
+.box{
+    background-color: white;
+    position: relative;
+    top: 50px;
+    left: 8%;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/* .wake{
+    position: relative;
+    top: 10px;
+} */
+.wake img{
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+.wake label{
+    position: relative;
+    top: 0px;
+    left: 30px;
+}
+.time0{
+    position: relative;
+    left: 50px;
+    background-color: white;
+    border: 0.5 solid;
+    width: 16vw;
+    height: 2vw;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.time1{
+    position: relative;
+    left: 65px;
+    background-color: white;
+    border: 0.5 solid;
+    width: 16vw;
+    height: 2vw;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.time2{
+    position: relative;
+    left: 75px;
+    background-color: white;
+    border: 0.5 solid;
+    width: 16vw;
+    height: 2vw;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.vr{
+    border-left: 1px solid black;
+            height: 30px;
+            position:relative;
+            left: 7%;
+            top: 5px;
+            opacity: 0.2;
+}
+.gm{
+    border: 1px solid #3D087B;
+    background-color:#5F0089;
+    color: white;
+    position: relative;
+    top: 70px;
+    left: 110px;
+    width: 29.5vw;
+    /* height: ; */
+    text-align: left;
+    font-size: 25px;
+    font-weight:900;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.pt{
+    /* border: 2px solid #3D087B; */
+    background-image: linear-gradient(to right, blue, pink);
+    color: white;
+    position: relative;
+    top: 85px;
+    left: 110px;
+    width: 15vw;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: manrope;
+    text-align: center;
+    border-radius: 5px;
+}
+.pt:hover{
+    background-image: linear-gradient(to right, pink, blue);
+}
+.pt span{
+    position: relative;
+    top: 5px;
+}
+.pt:hover span{
+    display: none
+}
+.pt:hover:before{
+    content: "Party time!";
+    font: normal normal 600 20px/38px Manrope;
+}
+.atime{
+    background-color: #5F0089;
+    /* color:; */
+    border: 2px solid #3D087B;
+    border-radius: 10px;
+    position: relative;
+    top: 45px;
+    left: 350px;
+    width: 13vw;
+    height: 12vh;
+    padding: 10px;
+}
+
+.clock{
+    width: 35vw;
+    height: 18vh;
+    position: absolute;
+    left: 700px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    z-index: 1;
+    }
+    /* .cp{
+       font-size: 25px;
+    } */
+     .time{
+         position: relative;
+         top: 50px;
+         left: 25px;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         color: #5F0089;
+     }
+    .thours{
+       /* text-align: center; */
+       position: relative;
+       top: 0px;
+       left: 100px;
+       font-size: 20px;
+       /* border: 2px solid; */
+       width: 5vw;
+       height: 10vh;
+       padding-top: 15px;
+       text-align: center;
+       background-color: #F6E2FF;
+       color: #5F0089;
+    }
+    .tmin{
+        position: relative;
+        left: 200px;
+        top: -85px;
+        font-size:20px ;
+        width: 5vw;
+       height: 10vh;
+       padding-top: 15px;
+       text-align: center;
+       background-color: #F6E2FF;
+       color: #5F0089;
+    }
+    .tsec{
+        position: relative;
+        left: 300px;
+        top: -170px;
+        font-size:20px ;
+        width: 5vw;
+       height: 10vh;
+       padding-top: 15px;
+       text-align: center;
+       background-color: #F6E2FF;
+       color: #5F0089;
+    }
+    .am{
+        /* background-image: url(./AM_svg.svg); */
+        background-image: url(./images/AM_svg.svg);
+        background-repeat: no-repeat;
+        position: relative;
+        top: -287px;
+        left: 420px;
+        width: 50vw;
+        height: 50vh;
+        opacity: 0.80;
+        /* text-align: center; */
+    }
+    .amt{
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 30px;
+        left: 15px;
+        opacity: 1;
+    }
+.clock1{
+    background-color: #FFFFFF;
+    width: 30vw;
+    height: 15vh;
+    position: relative;
+    bottom: 630px;
+    left: 25px;
+    z-index: -1;
+    opacity: 0.75;
+    border-radius: 15px;
+}
+.clock2{
+    background-color: #FFFFFF;
+    width: 28vw;
+    height: 15vh;
+    position: relative;
+    bottom: 722px;
+    left: 45px;
+    z-index: -2;
+    opacity: 0.50;
+    border-radius: 15px;
+}
+
+/* .break{
+    position: relative;
+    top: -390px;
+    width: 800px;
+    height: 600px;
+} */
+.grab{
+    position: absolute;
+    background-color: white;
+    left: 700px;
+    bottom: 370px;
+    height: 10vh;
+    width: 34vw;
+    text-align: center;
+    /* height: 100px; */
+    color: #8E53F0;
+    font-size:27px;
+    /* bottom: 0px; */
+    z-index: 1;
+    border-radius: 5px;
+}
+.img{
+    /* background-image: url(./am.svg); */
+    background-image: url(./images/am.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 700px;
+    bottom: -89px;
+    width: 536px;
+    height: 450px;
+}
